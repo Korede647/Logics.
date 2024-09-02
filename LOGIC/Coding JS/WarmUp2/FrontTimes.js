@@ -6,7 +6,7 @@
 
 
 function frontTimes(str, n) {
-    let newStr = str.slice(0,3)
+    let newStr = str.slice(0,3).split("")
     for(let i = 0; i = n*2; i++){
         newStr += newStr[i]
     }
