@@ -1,5 +1,5 @@
 function myFunction() {
-  myVar = setTimeout(showPage, 000);
+  myVar = setTimeout(showPage, 100);
 }
 
 function showPage() {
@@ -7,7 +7,3 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-} Animation loader round
